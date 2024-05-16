@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Task 1 Start */
+.task-1{
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.msg-list{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.msg__header{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-message{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-container{
+    display: flex;
+}
+
+.msg-container label{
+    margin-right: 15px;
+}
+
+.msg-container input{
+    width: 90%;
+}
+
+.send-btn{
+    cursor: pointer;
+}
+/* Task 1 End */
+
+
+
+/* Task 2 Start */
+.task-2{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.question{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.question > div{
+    display:flex;
+}
+
+.next-btn{
+    padding: 0px 40px;
+    cursor: pointer;
+}
+/* Task 2 End */
+
+
+
+/* Task 3 Start */
+.task-3{
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.task-3__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.styles{
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.styles div{
+    display: flex;
+}
+
+.task-3__btn{
+    padding: 4px;
+    cursor: pointer;
+}
+
+.result-container{
+    display: flex;
+    flex-direction: column;
+}
+/* Task 3 End */
+
+
+
+/* Task 4 Start */
+.task-4{
+    background-color: antiquewhite;
+}
+
+.book-cards{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;  
+    width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+    
+}
+
+.book img{
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.price{
+    text-align: end;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.book button{
+    vertical-align:text-bottom;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.menu__item{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.menu__item input{
+    border-radius: 3px;
+}
+
+.result{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.result__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid black;
+}
+/* Task 4 End */
+
+
+
+/* Task 5 Start */
+.task-5{
+    background-color: antiquewhite;
+    padding: 0px 15px;
+}
+
+.groups-lessons{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.groups{
+    margin-right: 25px;
+}
+
+.lessons{
+    margin-right: 25px;
+}
+
+.select-lesson{
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.students{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.student{
+   width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic{
+    margin-bottom: 20px;
+}
+
+/* Task 5 End */
+
+
+
+/* Task 6 Start */
+.task-6{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header{
+    display: flex;
+    gap: 15px;
+}
+
+.header button{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.places{
+    list-style: none;
+   display: flex;
+   border: 1px solid black;
+}
+
+.place{
+    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.place div{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer button{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+/* Task 6 End */
